@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "권지민 — Frontend Developer",
+  title: "권지민 — Developer",
   description: "풀스택 개발자 권지민의 포트폴리오입니다.",
 };
 
