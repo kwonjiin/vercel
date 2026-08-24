@@ -19,8 +19,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "홍길동 — Frontend Developer",
-  description: "프론트엔드 개발자 홍길동의 포트폴리오입니다.",
+  title: "권지민 — Frontend Developer",
+  description: "풀스택 개발자 권지민의 포트폴리오입니다.",
 };
 
 export default function RootLayout({

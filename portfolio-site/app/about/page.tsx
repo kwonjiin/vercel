@@ -20,9 +20,9 @@ const SKILLS: { category: string; items: string[]; color: string }[] = [
 
 // TODO: 실제 이력/활동 내역으로 교체하세요.
 const TIMELINE = [
-  { period: "2025.09 -", title: "취업 준비 중 (프론트엔드 개발자)" },
-  { period: "2024.03 - 2025.02", title: "OO대학교 컴퓨터공학과 졸업" },
-  { period: "2023.06 - 2023.12", title: "OO 부트캠프 프론트엔드 과정 수료" },
+  { period: "2025.09 -", title: "취업 준비 중" },
+  { period: "2024.03 - 2025.02", title: "단국대학교 경영공학과 졸업" },
+  { period: "2023.06 - 2023.12", title: "한화 beyond sw camp 수료" },
 ];
 
 export default function AboutPage() {
@@ -48,12 +48,12 @@ export default function AboutPage() {
             <p className="leading-relaxed text-fg-dim">
               {/* TODO: 실제 자기소개 문구로 교체하세요. */}
               안녕하세요, 사용자 경험을 코드로 완성하는 것을 좋아하는
-              프론트엔드 개발자 <span className="text-fg">홍길동</span>
-              입니다. React와 Next.js를 주로 사용하며, 화면 너머의 사용자가
+              개발자 <span className="text-fg">권지민</span>
+              입니다. React와 JAVA를 주로 사용하며, 화면 너머의 사용자가
               무엇을 느끼는지까지 고민하며 개발합니다.
             </p>
             <p>
-              <span className="text-cyan">guest@portfolio</span>
+              <span className="text-cyan">jimin001006@portfolio</span>
               <span className="text-fg-dim">:~$ </span>
               <span className="text-fg animate-blink">_</span>
             </p>

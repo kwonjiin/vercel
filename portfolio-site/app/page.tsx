@@ -15,17 +15,17 @@ export default function HomePage() {
     ],
     [
       { text: "  name: ", className: "text-fg-dim" },
-      { text: "'홍길동'", className: "text-cyan" },
+      { text: "'권지민'", className: "text-cyan" },
       { text: ",", className: "text-fg-dim" },
     ],
     [
       { text: "  role: ", className: "text-fg-dim" },
-      { text: "'Frontend Developer'", className: "text-cyan" },
+      { text: "'Full-stack Developer'", className: "text-cyan" },
       { text: ",", className: "text-fg-dim" },
     ],
     [
       { text: "  focus: ", className: "text-fg-dim" },
-      { text: "['React', 'Next.js', 'UX']", className: "text-amber" },
+      { text: "['React', 'java', 'UX']", className: "text-amber" },
       { text: ",", className: "text-fg-dim" },
     ],
     [{ text: "};", className: "text-fg-dim" }],
@@ -70,7 +70,7 @@ export default function HomePage() {
 
           <p className="mt-8 max-w-xl font-sans text-base leading-relaxed text-fg-dim sm:text-lg">
             사용자가 실제로 느끼는 속도와 완성도를 중요하게 생각하는
-            프론트엔드 개발자입니다. 아래에서 제가 만든 프로젝트와 이야기를
+             개발자입니다. 아래에서 제가 만든 프로젝트와 이야기를
             확인해보세요.
           </p>
 
