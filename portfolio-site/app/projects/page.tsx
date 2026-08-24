@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     <div className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
       <RevealOnScroll>
         <p className="mb-2 font-mono text-xs text-cyan">
-          // {projects.length} projects
+          {/* // */}{projects.length} projects 
         </p>
         <h1 className="mb-3 font-mono text-2xl text-fg sm:text-3xl">
           프로젝트

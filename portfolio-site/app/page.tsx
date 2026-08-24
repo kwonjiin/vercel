@@ -104,7 +104,7 @@ export default function HomePage() {
           <div className="mb-10 flex items-end justify-between gap-4">
             <div>
               <p className="mb-2 font-mono text-xs text-cyan">
-                // featured
+                {/* // featured */}
               </p>
               <h2 className="font-mono text-2xl text-fg sm:text-3xl">
                 대표 프로젝트

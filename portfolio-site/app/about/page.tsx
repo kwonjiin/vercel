@@ -63,7 +63,7 @@ export default function AboutPage() {
 
       {/* 기술 스택 */}
       <RevealOnScroll delay={0.1} className="mt-16">
-        <p className="mb-2 font-mono text-xs text-cyan">// stack</p>
+        <p className="mb-2 font-mono text-xs text-cyan">{/* // stack */}</p>
         <h2 className="mb-6 font-mono text-xl text-fg sm:text-2xl">
           기술 스택
         </h2>
@@ -90,7 +90,7 @@ export default function AboutPage() {
 
       {/* 약력 */}
       <RevealOnScroll delay={0.15} className="mt-16">
-        <p className="mb-2 font-mono text-xs text-cyan">// timeline</p>
+         <p className="mb-2 font-mono text-xs text-cyan">{/*// timeline*/}</p> 
         <h2 className="mb-6 font-mono text-xl text-fg sm:text-2xl">약력</h2>
         <ol className="space-y-5 border-l border-border pl-6">
           {TIMELINE.map((item) => (

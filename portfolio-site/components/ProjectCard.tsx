@@ -49,7 +49,7 @@ export default function ProjectCard({
       className="group relative rounded-lg border border-border bg-bg-elevated p-6 transition-[border-color,box-shadow] duration-300 ease-out will-change-transform hover:border-border-bright hover:shadow-[0_20px_60px_-20px_rgba(125,211,192,0.15)] sm:p-8"
     >
       <div className="mb-4 flex items-start justify-between">
-        <span className="font-mono text-xs text-fg-faint">// {num}</span>
+         <span className="font-mono text-xs text-fg-faint">{/*// */}{num}</span> 
         <div className="flex gap-3">
           {project.githubUrl && (
             <a
