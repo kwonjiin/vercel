@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: #16181d;
+  color: #e8e6e1;
+}
+
+@media (min-width: 768px) {
+  body.custom-cursor-active {
+    cursor: none;
+  }
+}
+
+::selection {
+  background: #7dd3c0;
+  color: #16181d;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #16181d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d35;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3e48;
+}
+
+/* 키보드 포커스 표시 - 접근성 */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #7dd3c0;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
